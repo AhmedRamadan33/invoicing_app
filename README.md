@@ -1,14 +1,15 @@
 # 1. Clone repository
-git clone [repository-url]
-cd invoice-app
+1- git clone [repository-url]
+2- cd invoice-app
 
 # 2. Install dependencies
-composer install
-npm install && npm run build
+1- composer install
+2- npm install 
+3- npm run dev
 
 # 3. Configure environment
-cp .env.example .env
-php artisan key:generate
+1- cp .env.example .env
+2- php artisan key:generate
 
 # 4. Set up database in .env
 DB_CONNECTION=mysql
